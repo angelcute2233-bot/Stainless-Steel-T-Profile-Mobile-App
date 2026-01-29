@@ -4,7 +4,6 @@ import MobileProductList from "@/components/mobile-product-list"
 import MobileBottomNav from "@/components/mobile-bottom-nav"
 
 export default function Home() {
-  console.log("[v0] Home page rendering")
   return (
     <div className="min-h-screen bg-gray-900 flex items-center justify-center p-4">
       {/* Mobile Phone Frame */}

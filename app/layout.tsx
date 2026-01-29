@@ -1,19 +1,16 @@
 import React from "react"
 import type { Metadata, Viewport } from 'next'
-import { Roboto } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const roboto = Roboto({ 
+const inter = Inter({ 
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700"]
-});
+})
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
 }
 
 export const metadata: Metadata = {
@@ -46,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} antialiased`}>
+      <body className={`${inter.className} antialiased`}>
         {children}
         <Analytics />
       </body>
