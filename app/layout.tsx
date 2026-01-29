@@ -10,8 +10,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'Stainless Steel T Profile - SS T Patti | Manufacturers & Suppliers',
-  description: 'Find Stainless Steel T Profile, SS T Patti manufacturers, suppliers & exporters in India. Get contact details & address of companies manufacturing and supplying Stainless Steel T Profile.',
+  title: 'Stainless Steel T Profile Mobile App',
+  description: 'Mobile app for finding Stainless Steel T Profile manufacturers, suppliers & exporters in India. Get contact details & best prices.',
   generator: 'v0.app',
   icons: {
     icon: [
