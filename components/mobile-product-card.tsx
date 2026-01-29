@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import { MapPin, Phone, MessageSquare, Star, CheckCircle, Flag, User } from "lucide-react"
 
 export interface MobileProduct {
@@ -43,12 +42,11 @@ export default function MobileProductCard({ product }: MobileProductCardProps) {
       {/* Product Content */}
       <div className="px-4 pb-3 flex gap-3">
         {/* Product Image */}
-        <div className="w-28 h-28 shrink-0 bg-gray-50 rounded overflow-hidden relative">
-          <Image
+        <div className="w-28 h-28 shrink-0 bg-gray-50 rounded overflow-hidden flex items-center justify-center">
+          <img
             src={product.image}
             alt={product.name}
-            fill
-            className="object-contain p-2"
+            className="w-full h-full object-contain p-2"
           />
         </div>
         

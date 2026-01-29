@@ -141,6 +141,7 @@ const products: MobileProduct[] = [
 ]
 
 export default function MobileProductList() {
+  console.log("[v0] MobileProductList rendering with", products.length, "products")
   return (
     <div className="bg-gray-100">
       {products.map((product) => (
